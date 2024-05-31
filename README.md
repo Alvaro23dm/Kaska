@@ -18,7 +18,7 @@ Un consumidor/suscriptor puede modificar su offset en un tema para poder recibir
 
 Para permitir que un consumidor/suscriptor no tenga que estar siempre activo y pueda retomar el trabajo donde lo dejó al volver a ejecutarse, se pueden guardar de forma persistente sus offsets en el broker y recuperarlos al reiniciarse.
 
-## Requisitos que cumple el poryecto ##
+## Requisitos que cumple el proyecto ##
 Como se ha indicado anteriormente, este proyecto cumple sólo algunas de las funcionalidades de Apache Kafka. Estas son las siguintes:
 
 - El proyecto funciona tanto en local como en remoto.
